@@ -202,7 +202,7 @@ MHWORDChar dlg_scancodes[MH_NUM_SCANCODES] = {
     {L"U", 0x16},
     {L"V", 0x2F},
     {L"W", 0x11},
-    {L"X", 0x2D},
+    {L"LastEpoch X+G+пробел", 0x2D},
     {L"Y", 0x15},  // 25-29
     {L"Z", 0x2C},
     {L"0", 0x0B},

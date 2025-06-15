@@ -253,6 +253,14 @@ void KChFstate::MM_Key(int i, Direction dir) {
       input[1] = createKey(0x39, dir);
     }
 
+    // Press space+G after / and X
+    if (GetKeyToPress(i) == 0x2D)
+    {
+        cnt = 3;
+        input[1] = createKey(0x22, dir);
+        input[2] = createKey(0x39, dir);
+    }    
+
     // Press 1 and 2 after / and G
     /* if (GetKeyToPress(i) == 0x2B) 
     {
